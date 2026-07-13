@@ -242,7 +242,6 @@ h2 {
 	aspect-ratio: 1;
 	border-radius: 999px;
 	background:
-		radial-gradient(circle at 35% 30%, rgba(255, 255, 255, 0.95), transparent 0.7rem),
 		radial-gradient(circle at 50% 50%, rgba(56, 189, 248, 0.55), transparent 58%),
 		radial-gradient(circle at 50% 50%, rgba(139, 92, 246, 0.8), transparent 72%);
 	filter: blur(0.2px) drop-shadow(0 0 42px rgba(139, 92, 246, 0.45));
