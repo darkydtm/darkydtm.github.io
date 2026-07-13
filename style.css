@@ -260,8 +260,6 @@ h2 {
 .smoke-art {
 	position: absolute;
 	width: min(76%, 280px);
-	opacity: 0.58;
-	mix-blend-mode: screen;
 	filter: blur(0.2px);
 }
 
