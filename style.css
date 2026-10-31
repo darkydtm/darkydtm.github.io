@@ -1,6 +1,6 @@
 @font-face {
 	font-family: "OPPO Sans";
-	src: url("assets/fonts/OPPO Sans 4.0.ttf") format("truetype");
+	src: url("assets/fonts/OPPO Sans 4.0.woff2") format("woff2");
 	font-weight: 300 900;
 	font-display: swap;
 }
