@@ -2,91 +2,77 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="darky - linux-enthusiast, programmer interested in IT, Linux systems and QOL.">
 	<meta property="og:title" content="darky - bio">
 	<meta property="og:description" content="linux-enthusiast, programmer interested in IT.">
 	<meta property="og:type" content="website">
-	<link rel="stylesheet" href="style.css">
 	<title>darky - bio</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<main class="page-shell">
-		<section class="hero-card" aria-labelledby="hero-title">
+	<a class="skip" href="#main">Skip to content</a>
+	<main id="main" class="wrap">
+		<section class="hero" aria-labelledby="hero-title">
 			<div class="hero-copy">
-				<p class="eyebrow">bio</p>
-				<h1 id="hero-title">darky</h1>
-				<p class="hero-subtitle">linux-enthusiast, programmer</p>
-				<p class="hero-text">Hi! I am interested in IT. I love learning Linux systems and improving my QOL.</p>
-				<ul class="tag-list" aria-label="Focus areas">
-					<li>Linux systems</li>
-					<li>Programming</li>
-					<li>QOL</li>
+				<p class="eyebrow">Hello, I'm</p>
+				<h1 id="hero-title">darky<span>.</span></h1>
+				<p class="hero-description">Linux enthusiast<br>and programmer.</p>
+				<p class="hero-body">Interested in IT, learning Linux systems and improving my everyday workflow.</p>
+			</div>
+			<div class="hero-visual" aria-hidden="true">
+				<picture><source srcset="assets/smoke-still.png" media="(prefers-reduced-motion: reduce)"><img src="assets/smoke.gif" alt=""></picture>
+			</div>
+		</section>
+		<div class="profile-grid">
+			<section class="about panel" id="about" aria-labelledby="about-title">
+				<h2 id="about-title">A little about me<span>.</span></h2>
+				<p>I like exploring Linux systems, programming and finding ways to make everyday things work better.</p>
+				<ul class="interests" aria-label="Focus areas">
+					<li><img src="assets/icons/linux.svg" alt="" width="18" height="18">Linux systems</li>
+					<li><span class="interest-icon interest-code" aria-hidden="true"></span>Programming</li>
+					<li><span class="interest-icon interest-heart" aria-hidden="true"></span>QOL</li>
 				</ul>
-				<div class="action-row" aria-label="Primary links">
-					<a class="button button-primary" href="https://t.me/beavers_best" target="_blank" rel="noreferrer">Telegram</a>
-					<a class="button button-secondary" href="https://github.com/darkydtm" target="_blank" rel="noreferrer">GitHub</a>
-				</div>
+				<section class="stack" aria-labelledby="stack-title">
+					<h3 id="stack-title">Stack<span>.</span></h3>
+					<ul class="stack-list">
+						<li><a href="https://www.kernel.org/" target="_blank" rel="noreferrer"><img src="assets/icons/linux.svg" alt="" width="28" height="28">Linux</a></li>
+						<li><a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"><img src="assets/icons/gnubash.svg" alt="" width="28" height="28">Bash</a></li>
+						<li><a href="https://www.docker.com/" target="_blank" rel="noreferrer"><img src="assets/icons/docker.svg" alt="" width="28" height="28">Docker</a></li>
+					</ul>
+				</section>
+			</section>
+			<div class="profile-side">
+				<section class="social panel" id="links" aria-labelledby="links-title">
+					<h2 id="links-title">Find me</h2>
+					<div class="social-grid">
+						<a href="https://t.me/beavers_best" target="_blank" rel="noreferrer"><img src="assets/tg.png" alt=""><span>Telegram</span><span class="project-arrow" aria-hidden="true"><span class="external-icon"></span></span></a>
+						<a href="https://github.com/darkydtm" target="_blank" rel="noreferrer"><img src="assets/github.png" alt=""><span>GitHub</span><span class="project-arrow" aria-hidden="true"><span class="external-icon"></span></span></a>
+					</div>
+				</section>
+				<section class="setup panel" aria-labelledby="setup-title">
+					<h2 id="setup-title">Setup<span>.</span></h2>
+					<div class="setup-items">
+						<a class="setup-system" href="https://artixlinux.org/" target="_blank" rel="noreferrer">
+							<img src="assets/icons/artixlinux.svg" alt="" width="40" height="40">
+							<div><strong>Artix Linux</strong><span>Operating system</span></div>
+						</a>
+						<a class="setup-system" href="https://davmac.org/projects/dinit/" target="_blank" rel="noreferrer">
+							<span class="setup-init-icon" aria-hidden="true"></span>
+							<div><strong>dinit</strong><span>Init system</span></div>
+						</a>
+					</div>
+				</section>
 			</div>
-			<div class="hero-art" aria-hidden="true">
-				<div class="hero-orb"></div>
-				<img class="smoke-art" src="assets/smoke.gif" alt="">
-			</div>
-		</section>
-
-		<section class="content-grid" aria-label="Profile details">
-			<article class="info-card">
-				<p class="section-label">About</p>
-				<h2>IT and systems</h2>
-				<p>I am interested in IT, and I like learning Linux systems while improving my everyday workflow.</p>
-			</article>
-
-			<article class="info-card">
-				<p class="section-label">Links</p>
-				<h2>Find me</h2>
-				<div class="quick-links">
-					<a class="link-tile" href="https://t.me/beavers_best" target="_blank" rel="noreferrer">
-						<img src="assets/tg.png" alt="">
-						<span>Telegram</span>
-					</a>
-					<a class="link-tile" href="https://github.com/darkydtm" target="_blank" rel="noreferrer">
-						<img src="assets/github.png" alt="">
-						<span>GitHub</span>
-					</a>
-					<a class="link-tile" href="https://discord.com/users/848464667587248128" target="_blank" rel="noreferrer">
-						<img src="assets/discord.png" alt="">
-						<span>Discord</span>
-					</a>
-					<a class="link-tile" href="https://steamcommunity.com/id/darkdtm/" target="_blank" rel="noreferrer">
-						<img src="assets/steam.png" alt="">
-						<span>Steam</span>
-					</a>
-				</div>
-			</article>
-		</section>
-
-		<section class="section-block" aria-labelledby="projects-title">
-			<div class="section-heading">
-				<p class="section-label">Profiles</p>
-				<h2 id="projects-title">Projects and channels</h2>
-			</div>
+		</div>
+		<section class="projects" id="projects" aria-labelledby="projects-title">
+			<div class="projects-heading"><h2 id="projects-title">Projects and channels<span>.</span></h2><p>More places to find my work.</p></div>
 			<div class="project-grid">
-				<a class="project-card" href="https://t.me/lua_helpers" target="_blank" rel="noreferrer">
-					<img src="assets/luahelpers.png" alt="">
-					<span>Telegram channel</span>
-					<strong>LuaHelpers</strong>
-				</a>
-				<a class="project-card" href="https://t.me/darkydev" target="_blank" rel="noreferrer">
-					<img src="assets/darkydev.png" alt="">
-					<span>Telegram channel</span>
-					<strong>DarkyDev</strong>
-				</a>
+				<a class="project project-one" href="https://t.me/lua_helpers" target="_blank" rel="noreferrer"><img src="assets/channel-luahelpers.png" alt=""><div><span>Telegram channel</span><h3>lua helpers</h3></div><span class="project-arrow" aria-hidden="true"><span class="external-icon"></span></span></a>
+				<a class="project project-two" href="https://t.me/darkydev" target="_blank" rel="noreferrer"><img src="assets/channel-darkydev.png" alt=""><div><span>Telegram channel</span><h3>darkydev</h3></div><span class="project-arrow" aria-hidden="true"><span class="external-icon"></span></span></a>
 			</div>
 		</section>
 	</main>
-
-	<footer class="site-footer">
-		<p>© All rights NOT reserved. 2026</p>
-	</footer>
+	<footer class="footer wrap"><span class="wordmark">darky<span>.</span></span><p>© All rights NOT reserved. 2026</p></footer>
 </body>
 </html>
