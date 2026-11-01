@@ -62,7 +62,7 @@ h2 { font-size: clamp(2rem, 3.4vw, 3rem); line-height: 1.1; letter-spacing: -.05
 .setup-system strong { font-size: 1.15rem; }
 .setup-system span { color: var(--muted); font-size: .9rem; }
 .social h2 { font-size: 1.8rem; }
-.social-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 13rem), 1fr)); gap: 0.5rem; }
+.social-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr)); gap: 0.5rem; }
 .social-grid a { display: flex; align-items: center; gap: 0.75rem; min-width: 0; min-height: 4.375rem; padding: 0.75rem 1rem; border-radius: 1.25rem; background: var(--surface-high); font-weight: 700; }
 .social-grid img { width: 1.875rem; height: 1.875rem; object-fit: contain; border-radius: 0.5rem; }
 .social-grid .project-arrow { width: 2.25rem; height: 2.25rem; }
